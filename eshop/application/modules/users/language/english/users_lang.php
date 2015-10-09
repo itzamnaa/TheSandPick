@@ -4,22 +4,22 @@ US English
 Admin Administrator Management Language
 ******************************************/
 
-$lang['admins'] = 'Administrators';
-$lang['admin'] = 'Administrator';
-$lang['orders'] = 'Order User';
-$lang['admin_form'] = 'Administrator Form';
-$lang['add_new_admin'] = 'Add New Admin';
-$lang['error_self_delete'] = 'You cannot delete yourself';
-$lang['admin_not_found'] = 'The requested administrator could not be found';
-$lang['firstname'] = 'First Name';
-$lang['lastname'] = 'Last Name';
+$lang['admins'] = 'Administradores';
+$lang['admin'] = 'Administrador';
+$lang['orders'] = 'Orden de usuario';
+$lang['admin_form'] = 'Formulario de Administrador';
+$lang['add_new_admin'] = 'Agregar Nuevo Administrador';
+$lang['error_self_delete'] = 'No puedes Eliminarte';
+$lang['admin_not_found'] = 'Administrador no Encontrado';
+$lang['firstname'] = 'Nombre';
+$lang['lastname'] = 'Apellido';
 $lang['email'] = 'Email';
-$lang['username'] = 'Username';
-$lang['access'] = 'Access';
-$lang['password'] = 'Password';
-$lang['confirm_password'] = 'Confirm Password';
-$lang['message_user_saved'] = 'The administrator has been saved!';
-$lang['message_user_deleted'] = 'The administrator has been deleted.';
-$lang['error_username_taken'] = 'The requested username is already in use.';
-$lang['information'] = 'Information';
-$lang['confirm_delete'] = 'Are you sure you want to delete this administrator?';
+$lang['username'] = 'Nombre de Usuario';
+$lang['access'] = 'Acceso';
+$lang['password'] = 'Contraseña';
+$lang['confirm_password'] = 'Confirmar Contraseña';
+$lang['message_user_saved'] = 'Administrador Guardado!';
+$lang['message_user_deleted'] = 'Administrador Eliminado.';
+$lang['error_username_taken'] = 'El nombre de usuario ya esta en uso.';
+$lang['information'] = 'Informacion';
+$lang['confirm_delete'] = 'Estas seguro de que quieres eliminar este Administrador?';

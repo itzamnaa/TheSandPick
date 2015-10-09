@@ -45,7 +45,7 @@ $addressCell = 'style="border:1px solid #d6d4d4; padding:10px;background-color:#
 ?>
 
 <div style="font-family:Open-sans, Arial, Verdana, sans-serif; color:#555454; text-transform:uppercase; font-size:17px;">
-    <?php echo lang('order_number');?>: <?php echo $order->order_number; ?>
+   Numero de Orden: <?php echo $order->order_number; ?>
 </div>
 
 <table <?php echo $table;?>>

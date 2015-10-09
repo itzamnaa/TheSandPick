@@ -18,8 +18,6 @@
                     <li><a href="#product_downloads" data-toggle="tab"><?php echo lang('digital_content');?></a></li>
                     <?php endif;?>
                     <li><a href="#product_categories" data-toggle="tab"><?php echo lang('categories');?></a></li>
-                    <li><a href="#ProductOptions" data-toggle="tab"><?php echo lang('options');?></a></li>
-                    <li><a href="#product_related" data-toggle="tab"><?php echo lang('related_products');?></a></li>
                     <li><a href="#product_photos" data-toggle="tab"><?php echo lang('images');?></a></li>
                 </ul>
             </div>
@@ -36,7 +34,7 @@
                         <?php echo form_textarea(['name'=>'description', 'class'=>'redactor', 'value'=>assign_value('description', $description)]); ?>
                     </div>
 
-                    <div class="form-group">
+                    <div hidden class="form-group">
                         <label><?php echo lang('excerpt');?></label>
                         <?php echo form_textarea(['name'=>'excerpt', 'value'=>assign_value('excerpt', $excerpt), 'class'=>'redactor']); ?>
                     </div>

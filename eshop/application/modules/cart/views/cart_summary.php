@@ -1,5 +1,5 @@
 <div class="cartSummary">
-    <div class="cartSummaryTitle"><?php echo lang('your_cart');?></div>
+    <div class="cartSummaryTitle">Mi carrito</div>
 
     <div class="alert red" id="summaryErrors" style="display:none;"></div>
     <?php
@@ -82,7 +82,7 @@
             <?php if(!empty($product->coupon_code)):?>
                 <div class="col-nest">
                     <div class="col" data-cols="3/4">
-                        <small><?php echo lang('coupon').': '.$product->coupon_code;?></small>
+                        <small><?php echo 'Cupon'.': '.$product->coupon_code;?></small>
                     </div>
                     <div class="col text-right text-red" data-cols="1/4">
                         <strong><small><?php echo '-'.format_currency(($product->coupon_discount * $product->coupon_discount_quantity));?></small></strong>
@@ -119,7 +119,7 @@
                     <?php endif;?>
 
                     <div class="cartItemRemove">
-                        <a class="text-red" onclick="updateItem(<?php echo $product->id;?>, 0);" style="cursor:pointer"><?php echo lang('remove');?></a>
+                        <a class="text-red" onclick="updateItem(<?php echo $product->id;?>, 0);" style="cursor:pointer">Remover</a>
                     </div>
                 </div>
                 <div class="col text-right" data-cols="1/4">
@@ -134,7 +134,7 @@
         <div class="cartSummaryTotals">
             <div class="col-nest">
                 <div class="col" data-cols="2/3" data-medium-cols="2/3" data-small-cols="2/3">
-                    <div class="cartSummaryTotalsKey"><?php echo lang('subtotal');?>:</div>
+                    <div class="cartSummaryTotalsKey">Subtotal:</div>
                 </div>
                 <div class="col" data-cols="1/3" data-medium-cols="1/3" data-small-cols="1/3">
                     <div class="cartSummaryTotalsValue"><?php echo format_currency(GC::getSubtotal());?></div>
@@ -194,7 +194,7 @@
 
             <div class="col-nest">
                 <div class="col" data-cols="2/3" data-medium-cols="2/3" data-small-cols="2/3">
-                    <div class="cartSummaryTotalsKey"><?php echo lang('grand_total');?>:</div>
+                    <div class="cartSummaryTotalsKey">Total:</div>
                 </div>
                 <div class="col" data-cols="1/3" data-medium-cols="1/3" data-small-cols="1/3">
                     <div class="cartSummaryTotalsValue"><?php echo format_currency(GC::getGrandTotal());?></div>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="col text-right" data-cols="1/4" data-medium-cols="1/4" data-small-cols="1/4" style="white-space:nowrap;">
                     <div class="cartItemRemove">
-                        <a class="text-red" onclick="updateItem(<?php echo $coupon->id;?>, 0);" style="cursor:pointer"><?php echo lang('remove');?></a>
+                        <a class="text-red" onclick="updateItem(<?php echo $coupon->id;?>, 0);" style="cursor:pointer">Remover</a>
                     </div>
                 </div>
             </div>
@@ -220,17 +220,7 @@
 
     <div class="cartPromotions">
 
-        <div class="couponMessage"></div>
-        <div class="btn-group input-sm">
-            <div class="priority"><input type="text" id="coupon" placeholder="<?php echo lang('coupon_label');?>"></div>
-            <a class="btn green" type="button" onclick="submitCoupon()"><i class="icon-plus"></i></a>
-        </div>
-
-        <div class="giftCardMessage"></div>
-        <div class="btn-group input-sm">
-            <div class="priority"><input type="text" id="giftCard" placeholder="<?php echo lang('gift_card_label');?>"></div>
-            <a class="btn green" type="button" onclick="submitGiftCard()"><i class="icon-plus"></i></a>
-        </div>
+        
 
     </div>
 </div>

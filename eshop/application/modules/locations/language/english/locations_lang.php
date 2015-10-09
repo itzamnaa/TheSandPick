@@ -4,8 +4,8 @@ US English
 Admin Location Language
 ******************************************/
 
-$lang['country']					= 'Country';
-$lang['countries']					= 'Countries';
+$lang['country']					= 'Pais';
+$lang['countries']					= 'Paises';
 $lang['zone_areas']					= 'Zone Area';
 $lang['country_zones']				= '%s Zones';
 $lang['zone_areas_for']				= 'Zone areas for %s';

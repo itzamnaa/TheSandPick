@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Go Cart<?php echo (isset($page_title))?' :: '.$page_title:''; ?></title>
-
+<title>The Sand Pick</title>
+<link rel="shortcut icon" href="<?php echo base_url('../../icono.png');?>" />
 <link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url('assets/css/admin.css');?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url('assets/css/font-awesome.css');?>" rel="stylesheet" type="text/css" />
@@ -59,7 +59,7 @@ $(document).ready(function(){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo site_url('admin');?>">GoCart</a>
+                <a class="navbar-brand" href="<?php echo site_url('admin');?>">The Sand Pick</a>
             </div>
 
 

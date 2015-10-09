@@ -61,7 +61,6 @@ function areyousure()
 
 <?php echo form_open('admin/products/bulk_save', array('id'=>'bulk_form'));?>
 <div class="text-right form-group">
-    <button class="btn btn-primary" href="#"><i class="icon-ok"></i> <?php echo lang('bulk_save');?></button>
     <a class="btn btn-primary" style="font-weight:normal;"href="<?php echo site_url('admin/products/form');?>"><i class="icon-plus"></i> <?php echo lang('add_new_product');?></a>
     <a class="btn btn-primary" style="font-weight:normal;"href="<?php echo site_url('admin/products/gift-card-form');?>"><i class="icon-plus"></i> <?php echo lang('add_new_gift_card');?></a>
 </div>
@@ -121,7 +120,6 @@ function areyousure()
                 <td class="text-right">
                     <div class="btn-group">
                         <a class="btn btn-default" href="<?php echo ($product->is_giftcard) ? site_url('admin/products/gift-card-form/'.$product->id) : site_url('admin/products/form/'.$product->id);?>" alt="<?php echo lang('edit');?>"><i class="icon-pencil"></i></a>
-                        <a class="btn btn-default" href="<?php echo site_url('admin/products/form/'.$product->id.'/1');?>" alt="<?php echo lang('copy');?>"><i class="icon-copy"></i></a>
                         <a class="btn btn-danger" href="<?php echo site_url('admin/products/delete/'.$product->id);?>" onclick="return areyousure();" alt="<?php echo lang('delete');?>"><i class="icon-times "></i></a>
                     </div>
                 </td>

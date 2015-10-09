@@ -22,9 +22,7 @@
             <input type="submit" value="<?php echo lang('form_login');?>" name="submit" class="blue"/>
         </form>
 
-        <div style="text-align:center;">
-            <a href="<?php echo site_url('forgot-password'); ?>"><?php echo lang('forgot_password')?></a>
-        </div>
+        
     </div>
     <div class="col" data-cols="1/2">
         <div class="page-header">
@@ -63,7 +61,7 @@
             </div>
 
             <label class="checklist">
-                <input type="checkbox" name="email_subscribe" value="1" <?php echo set_radio('email_subscribe', '1', TRUE); ?>/> <?php echo lang('account_newsletter_subscribe');?>
+                <input hidden type="checkbox" name="email_subscribe" value="1" <?php echo set_radio('email_subscribe', '1', TRUE); ?>/> 
             </label>
 
             <div class="col-nest">

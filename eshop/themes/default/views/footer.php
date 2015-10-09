@@ -7,11 +7,7 @@
         </nav>
 
         <div class="credits">
-            <a href="http://gocartdv.com" target="_blank">
-                Driven by GoCart
-            </a>
-            <br>
-            <a href="http://gocartdv.com" target="_blank">Designed by Clear Sky Designs</a>
+            
         </div>
     </div>
 </footer>

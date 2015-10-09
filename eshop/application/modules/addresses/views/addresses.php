@@ -8,7 +8,7 @@
     });
     function deleteAddress(id)
     {
-        if( confirm('<?php echo lang('delete_address_confirmation');?>') )
+        if( confirm('Eliminar Direccion') )
         {
             $.post('<?php echo site_url('addresses/delete');?>/'+id, function(){
                 loadAddresses();
@@ -17,7 +17,7 @@
     }
 </script>
 
-<h3><?php echo lang('address_manager');?></h3>
+<h3>Administrar Direcciones</h3>
 
 <?php if(count($addresses) > 0):?>
     

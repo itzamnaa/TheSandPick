@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title><?php echo (!empty($seo_title)) ? $seo_title .' - ' : ''; echo config_item('company_name'); ?></title>
-
-<link rel="shortcut icon" href="<?php echo theme_img('favicon.png');?>" type="image/png" />
+<link rel="shortcut icon" href="<?php echo base_url('../../icono.png');?>" />
 <?php if(isset($meta)):?>
 <?php echo (strpos($meta, '<meta') !== false) ? $meta : '<meta name="description" content="'.$meta.'" />';?>
 <?php else:?>
@@ -69,7 +68,8 @@ if(isset($additional_header_info))
     <div class="container">
         <div class="col-nest">
             <div class="col" data-cols="1/2">
-                <a class="logo" href="<?php echo base_url();?>"><img src="<?php echo theme_img('logo.svg');?>" /></a>
+            
+                <a  href="<?php echo base_url('/page/inicio');?>"><img src="<?php echo base_url('../../logo.png');?>"  height="60"/></a>
             </div>
             <div class="col" data-cols="1/2">
                 <nav> 
@@ -113,7 +113,7 @@ if(isset($additional_header_info))
 
         <nav class="navPrimary">
             <ul class="nav mobileNav">
-                <li><a href="/"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>
+                <li><a href="http://localhost/TheSandPick/eshop/page/inicio"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>
                 <?php
                     category_loop(0, false, false);
                     page_loop(0, false, false);
