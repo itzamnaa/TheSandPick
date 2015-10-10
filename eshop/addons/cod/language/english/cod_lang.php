@@ -1,6 +1,6 @@
 <?php
 
-$lang['charge_on_delivery'] = 'Charge on Delivery';
-$lang['enabled'] = 'Enabled';
-$lang['disabled'] = 'Disabled';
-$lang['processing_error'] = 'There was an error processing your payment';
+$lang['charge_on_delivery'] = 'Pagar al Recivir';
+$lang['enabled'] = 'Habilitado';
+$lang['disabled'] = 'Desabilitado';
+$lang['processing_error'] = 'Ocurrio un error procesando tu pago';

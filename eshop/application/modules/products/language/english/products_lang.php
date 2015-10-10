@@ -4,10 +4,10 @@ US English
 Admin Product Language
 ******************************************/
 
-$lang['products'] = 'Products';
-$lang['search_term'] = 'Search Term';
-$lang['product_form'] = 'Product Form';
-$lang['sku'] = 'SKU';
+$lang['products'] = 'Producto';
+$lang['search_term'] = 'Buscar por';
+$lang['product_form'] = 'Agregar Producto';
+$lang['sku'] = 'PID';
 $lang['value'] = 'Valor';
 $lang['limit'] = 'Limite';
 $lang['seo_title'] = 'Titulo Tag';

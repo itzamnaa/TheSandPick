@@ -6,8 +6,8 @@ Admin Location Language
 
 $lang['country']					= 'Pais';
 $lang['countries']					= 'Paises';
-$lang['zone_areas']					= 'Zone Area';
-$lang['country_zones']				= '%s Zones';
+$lang['zone_areas']					= 'Zona';
+$lang['country_zones']				= '%s Areas';
 $lang['zone_areas_for']				= 'Zone areas for %s';
 $lang['zone_area_form']				= 'Zone area form for %s';
 $lang['country_form']				= 'Country Form';
