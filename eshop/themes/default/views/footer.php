@@ -38,4 +38,5 @@ function resizeCategories()
         </div>
     </div>
 </body>
+
 </html>

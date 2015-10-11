@@ -25,6 +25,25 @@
         </div>
     </div>
 </div>
+<?php  
+        $query="select lcase(country_code),count(country_code) from customers_address_bank group by country_code";
+        $server = "localhost";
+        $usuario = "root";
+        $pass = "root";
+        $db = "tienda";
+        $con =  mysql_connect($server,$usuario,$pass);
+        mysql_select_db($db);
+        if (!$con) {
+            die('No pudo conectarse: ' . mysql_error());
+        }
+        $result = mysql_query($query);
+        if (!$result) {
+            die('Error:'.mysql_error());
+        }
+        while($r = mysql_fetch_array($result)) {
+            echo "<input id='$r[0]' type='number' name='lastname' value='$r[1]' hidden>";
+        }
+?>
 <style type="text/css">
     
 #demo-wrapper {
@@ -187,7 +206,6 @@
 </style>
 <script type="text/javascript">
     $(function () {
-
     /**
      * This is a complicated demo of Highmaps, not intended to get you up to speed
      * quickly, but to show off some basic maps and features in one single place.
@@ -265,9 +283,11 @@
 
             // Generate non-random data for the map
             $.each(mapGeoJSON.features, function (index, feature) {
+               val=0;
+               val=$('#'+feature.properties['hc-key']).val();
                 data.push({
                     key: feature.properties['hc-key'],
-                    value: index
+                    value: val
                 });
             });
 
@@ -352,12 +372,7 @@
                         events: {
                             // On click, look for a detailed map
                             click: function () {
-                                var key = this.key;
-                                $('#mapDropdown option').each(function () {
-                                    if (this.value === 'countries/' + key.substr(0, 2) + '/' + key + '-all.js') {
-                                        $('#mapDropdown').val(this.value).change();
-                                    }
-                                });
+                                
                             }
                         }
                     }

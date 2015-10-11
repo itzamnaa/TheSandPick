@@ -30,6 +30,7 @@
     <li><a id="g6" data-toggle="pill" href="#menu3">Barras</a></li>
     <li><a id="g7" data-toggle="pill" href="#menu3">Medidores</a></li>
     <li><a id="g8" data-toggle="pill" href="#menu3">Pastel Anidado</a></li>
+    <li><a id="g9" data-toggle="pill" href="#menu3">Detallada</a></li>
   </ul>
   
   <div class="tab-content">
@@ -88,6 +89,11 @@
         });
         $('#g8').click(function(){
              $.ajax({url: "pastel2.php", success: function(result){
+                $("#result").html(result);
+            }});
+        });
+        $('#g9').click(function(){
+             $.ajax({url: "detallada.php", success: function(result){
                 $("#result").html(result);
             }});
         });

@@ -743,4 +743,22 @@
         <![endif]-->
         <script type="text/javascript" src="js/app.js"></script>
     </body>
+    <?php  
+        $query="insert into visit values(now())";
+        $server = "localhost";
+        $usuario = "root";
+        $pass = "root";
+        $db = "tienda";
+        $con =  mysql_connect($server,$usuario,$pass);
+        mysql_select_db($db);
+        if (!$con) {
+            die('No pudo conectarse: ' . mysql_error());
+        }
+        $result = mysql_query($query);
+        if (!$result) {
+            die('Error:'.mysql_error());
+        }
+        mysql_free_result($result);
+        mysql_close($con);
+    ?>
 </html>

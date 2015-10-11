@@ -6,11 +6,10 @@
         chart: {
             plotBackgroundColor: null,
             plotBorderWidth: null,
-            plotShadow: false,
-            type: 'pie'
+            plotShadow: false
         },
         title: {
-            text: 'Browser market shares January, 2015 to May, 2015'
+            text: 'Browser market shares at a specific website, 2014'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -29,29 +28,25 @@
             }
         },
         series: [{
-            name: "Brands",
-            colorByPoint: true,
-            data: [{
-                name: "Microsoft Internet Explorer",
-                y: 56.33
-            }, {
-                name: "Chrome",
-                y: 24.03,
-                sliced: true,
-                selected: true
-            }, {
-                name: "Firefox",
-                y: 10.38
-            }, {
-                name: "Safari",
-                y: 4.77
-            }, {
-                name: "Opera",
-                y: 0.91
-            }, {
-                name: "Proprietary or Undetectable",
-                y: 0.2
-            }]
+            type: 'pie',
+            name: 'Browser share',
+            data:
+            [
+
+            <?php
+                $link = mysql_connect('localhost', 'root', 'root');
+                mysql_select_db('tienda');
+                $result = mysql_query('select name,quantity from products');
+                
+
+             while ($fila = mysql_fetch_array($result, MYSQL_BOTH)) {?>
+                ['<?php echo $fila[0]?>', parseInt('<?php echo $fila[1]?>')],
+              <?php  
+               }        
+               mysql_free_result($result);
+               mysql_close($link);
+              ?>  
+            ]
         }]
     });
 });
