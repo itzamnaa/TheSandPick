@@ -20,8 +20,6 @@ lang('january')
 	<thead>
 		<tr>
 			<th><?php echo $year;?></th>
-			<th><?php echo lang('coupon_discounts');?></th>
-			<th><?php echo lang('gift_card_discounts');?></th>
 			<th><?php echo lang('products');?></th>
 			<th><?php echo lang('shipping');?></th>
 			<th><?php echo lang('tax');?></th>
@@ -31,7 +29,7 @@ lang('january')
 	<tbody>
 		<?php
 
-		$fields = ['couponDiscounts', 'giftCardDiscounts', 'products', 'shipping', 'tax'];
+		$fields = ['couponDiscounts', 'shipping', 'tax'];
 		for($i=0; $i<12; $i++):
 
 		?>

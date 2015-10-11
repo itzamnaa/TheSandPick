@@ -63,7 +63,7 @@
                         </div>
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="hide">
                         <legend><?php echo lang('header_information');?></legend>
                         <div style="padding-top:10px;">
                             

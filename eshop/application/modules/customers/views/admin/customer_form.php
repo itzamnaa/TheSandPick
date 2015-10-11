@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row hide">
         <div class="col-md-3">
             <div class="checkbox">
                 <label>
@@ -68,7 +68,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row hide">
         <div class="col-md-3">
             <div class="checkbox">
                 <label>

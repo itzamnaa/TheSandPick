@@ -1,4 +1,4 @@
-<table class="table table-striped" cellspacing="0" cellpadding="0">
+<table class="table table-striped hide" cellspacing="0" cellpadding="0">
 	<thead>
 		<tr>
 			<?php /*<th>ID</th> uncomment this if you want it*/ ?>

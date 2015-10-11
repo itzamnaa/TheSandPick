@@ -71,10 +71,10 @@ $(document).ready(function(){
                             <li><a href="<?php echo site_url('admin/orders');?>"><?php echo lang('common_orders'); ?></a></li>
                             <?php if(CI::auth()->check_access('Admin')) : ?>
                                 <li><a href="<?php echo site_url('admin/customers');?>"><?php echo lang('common_customers'); ?></a></li>
-                                <li><a href="<?php echo site_url('admin/customers/groups');?>"><?php echo lang('common_groups'); ?></a></li>
+                                <li class="hide"><a href="<?php echo site_url('admin/customers/groups');?>"><?php echo lang('common_groups'); ?></a></li>
                                 <li><a href="<?php echo site_url('admin/reports');?>"><?php echo lang('common_reports'); ?></a></li>
-                                <li><a href="<?php echo site_url('admin/coupons');?>"><?php echo lang('common_coupons'); ?></a></li>
-                                <li><a href="<?php echo site_url('admin/gift-cards');?>"><?php echo lang('common_gift_cards'); ?></a></li>
+                                <li class="hide"><a href="<?php echo site_url('admin/coupons');?>"><?php echo lang('common_coupons'); ?></a></li>
+                                <li class="hide"><a href="<?php echo site_url('admin/gift-cards');?>"><?php echo lang('common_gift_cards'); ?></a></li>
                             <?php endif; ?>
                         </ul>
                     </li>
@@ -87,7 +87,7 @@ $(document).ready(function(){
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<?php echo site_url('admin/categories');?>"><?php echo lang('common_categories'); ?></a></li>
                             <li><a href="<?php echo site_url('admin/products');?>"><?php echo lang('common_products'); ?></a></li>
-                            <li><a href="<?php echo site_url('admin/digital_products');?>"><?php echo lang('common_digital_products'); ?></a></li>
+                            <li class="hide"><a href="<?php echo site_url('admin/digital_products');?>"><?php echo lang('common_digital_products'); ?></a></li>
                         </ul>
                     </li>
 

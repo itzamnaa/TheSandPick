@@ -1,6 +1,6 @@
-<?php pageHeader(lang('reports'));?>
+<?php pageHeader('Reporte de Ventas');?>
 
-<div class="row">
+<div class="row hide">
     <div class="col-md-6">
         <h3><?php echo lang('best_sellers');?></h3>
     </div>
@@ -22,7 +22,6 @@
 
 <div class="row">
     <div class="col-md-6">
-        <h3><?php echo lang('sales');?></h3>
     </div>
     <div class="col-md-6">
         <form class="form-inline pull-right">

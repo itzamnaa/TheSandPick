@@ -5,17 +5,17 @@
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link href="https://bootswatch.com/sandstone/bootstrap.min.css" rel="stylesheet">
+  <link href="https://bootswatch.com/readable/bootstrap.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/modules/exporting.js"></script>
-<script src="http://code.highcharts.com/maps/highmaps.js"></script>
-<script src="http://code.highcharts.com/maps/modules/data.js"></script>
-<script src="http://code.highcharts.com/mapdata/custom/world.js"></script>
-<script src="http://code.highcharts.com/highcharts-more.js"></script>
-<script src="http://code.highcharts.com/modules/solid-gauge.js"></script>
-<script src="http://code.highcharts.com/modules/data.js"></script>
-<script src="http://code.highcharts.com/modules/drilldown.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script> 
+  <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="http://code.highcharts.com/mapdata/custom/world.js"></script>
+  <script src="http://code.highcharts.com/highcharts-more.js"></script>
+  <script src="http://code.highcharts.com/modules/solid-gauge.js"></script>
+  <script src="http://code.highcharts.com/modules/data.js"></script>
+  <script src="http://code.highcharts.com/modules/drilldown.js"></script>
 </head>
 <body>
 

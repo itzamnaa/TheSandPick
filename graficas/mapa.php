@@ -48,15 +48,16 @@
     
 #demo-wrapper {
     max-width: 1000px;
-    margin: 0 auto;
-    height: 560px;
+    height: 100%;
+    width: 100%;
 }
 #mapBox {
     width: 80%;
     float: left;
 }
 #container {
-    height: 500px;
+    height: 600px;
+    width: 600px;
 }
 #sideBox {
     float: right;
