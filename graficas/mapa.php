@@ -87,6 +87,7 @@
     max-width: 400px;
     margin: 0 auto;
     position: relative;
+    display: none;
 }
 .selector .prev-next {
     position: absolute;

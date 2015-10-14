@@ -95,7 +95,6 @@
             <th class="gc_cell_left"><?php echo lang('firstname') ?></th>
             <th><?php echo lang('lastname') ?></th>
             <th><?php echo lang('email') ?></th>
-            <th class="gc_cell_right"><?php echo lang('active') ?></th>
         </tr>
     </thead>
     <tbody>
@@ -105,17 +104,7 @@
             <td class="gc_cell_left"><?php echo  $customer->firstname; ?></td>
             <td><?php echo  $customer->lastname; ?></td>
             <td><a href="mailto:<?php echo  $customer->email;?>"><?php echo  $customer->email; ?></a></td>
-            <td>
-                <?php if($customer->active == 1)
-                {
-                    echo lang('yes');
-                }
-                else
-                {
-                    echo lang('no');
-                }
-                ?>
-            </td>
+            
         </tr>
 <?php endforeach; ?>
     </tbody>

@@ -168,13 +168,11 @@
                     </div>
                 <?php endforeach;?>
             <?php endif;?>
-
             <div class="text-right">
             <?php if(!config_item('inventory_enabled') || config_item('allow_os_purchase') || !(bool)$product->track_stock || $product->quantity > 0) : ?>
 
                 <?php if(!$product->fixed_quantity) : ?>
-
-                        <strong>Quantity&nbsp;</strong>
+                        <strong>Cantidad</strong>
                         <input type="text" name="quantity" value="1" style="width:50px; display:inline"/>&nbsp;
                         <button class="blue" type="button" value="submit" onclick="addToCart($(this));"><i class="icon-cart"></i> <?php echo lang('form_add_to_cart');?></button>
                 <?php else: ?>

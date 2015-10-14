@@ -42,7 +42,7 @@
                     <fieldset>
                         <legend><?php echo lang('inventory');?></legend>
                         <div class="row" style="padding-top:10px;">
-                            <div class="col-md-4">
+                            <div class="col-md-4 hide">
                                 <div class="form-group">
                                     <label for="track_stock"><?php echo lang('track_stock');?> </label>
                                     <?php echo form_dropdown('track_stock', [1 => lang('yes'), 0 => lang('no')], assign_value('track_stock',$track_stock), 'class="form-control"'); ?>

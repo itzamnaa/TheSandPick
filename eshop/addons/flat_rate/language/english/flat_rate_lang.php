@@ -1,6 +1,6 @@
 <?php
 
-$lang['flat_rate'] = 'Flat Rate';
-$lang['enabled'] = 'Enabled';
-$lang['disabled'] = 'Disabled';
-$lang['rate'] = 'Rate';
+$lang['flat_rate'] = 'Costo de Envio';
+$lang['enabled'] = 'Habilitado';
+$lang['disabled'] = 'Deshabilitado';
+$lang['rate'] = 'Costo';

@@ -31,8 +31,8 @@
     <li><a id="g7" data-toggle="pill" href="#menu3">Medidores</a></li>
     <li><a id="g8" data-toggle="pill" href="#menu3">Pastel Anidado</a></li>
     <li><a id="g9" data-toggle="pill" href="#menu3">Detallada</a></li>
+    <li><a id="g10" data-toggle="pill" href="#menu3">Barra Doble</a></li>
   </ul>
-  
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active" ></div>
     <div id="menu1" class="tab-pane fade"></div>
@@ -94,6 +94,11 @@
         });
         $('#g9').click(function(){
              $.ajax({url: "detallada.php", success: function(result){
+                $("#result").html(result);
+            }});
+        });
+        $('#g10').click(function(){
+             $.ajax({url: "barrasdoble.php", success: function(result){
                 $("#result").html(result);
             }});
         });

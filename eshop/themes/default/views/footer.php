@@ -38,5 +38,5 @@ function resizeCategories()
         </div>
     </div>
 </body>
-
+<link type="text/css" href="https://bootswatch.com/readable/bootstrap.min.css" rel="stylesheet" />
 </html>

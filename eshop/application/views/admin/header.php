@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>The Sand Pick</title>
 <link rel="shortcut icon" href="<?php echo base_url('../../icono.png');?>" />
-<link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet" type="text/css" />
+<link type="text/css" href="https://bootswatch.com/readable/bootstrap.min.css" rel="stylesheet" />
 <link href="<?php echo base_url('assets/css/admin.css');?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url('assets/css/font-awesome.css');?>" rel="stylesheet" type="text/css" />
 <link type="text/css" href="<?php echo base_url('assets/css/redactor.css');?>" rel="stylesheet" />
@@ -91,7 +91,7 @@ $(document).ready(function(){
                         </ul>
                     </li>
 
-                    <li class="dropdown">
+                    <li class="dropdown hide">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo lang('common_content'); ?> <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<?php echo site_url('admin/banners');?>"><?php echo lang('common_banners'); ?></a></li>
@@ -100,24 +100,24 @@ $(document).ready(function(){
                     </li>
 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo lang('common_administrative'); ?> <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Administrar <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="<?php echo site_url('admin/settings');?>"><?php echo lang('common_gocart_configuration'); ?></a></li>
-                            <li><a href="<?php echo site_url('admin/shipping');?>"><?php echo lang('common_shipping_modules'); ?></a></li>
-                            <li><a href="<?php echo site_url('admin/payments');?>"><?php echo lang('common_payment_modules'); ?></a></li>
-                            <li><a href="<?php echo site_url('admin/settings/canned_messages');?>"><?php echo lang('common_canned_messages'); ?></a></li>
-                            <li><a href="<?php echo site_url('admin/locations');?>"><?php echo lang('common_locations'); ?></a></li>
+                            <li><a class="hide"> href="<?php echo site_url('admin/settings');?>"><?php echo lang('common_gocart_configuration'); ?></a></li>
+                            <li ><a href="<?php echo site_url('admin/shipping');?>"><?php echo lang('common_shipping_modules'); ?></a></li>
+                            <li class="hide"><a href="<?php echo site_url('admin/payments');?>"><?php echo lang('common_payment_modules'); ?></a></li>
+                            <li><a href="<?php echo site_url('admin/settings/canned_messages');?>">Clientes por Pais</a></li>
+                            <li class="hide"><a href="<?php echo site_url('admin/locations');?>"><?php echo lang('common_locations'); ?></a></li>
                             <li><a href="<?php echo site_url('admin/users');?>"><?php echo lang('common_administrators'); ?></a></li>
-                            <li><a href="<?php echo site_url('admin/sitemap');?>"><?php echo 'Sitemap'; ?></a></li>
+                            <li><a href="<?php echo site_url('admin/sitemap');?>">Reportes Graficos</a></li>
                         </ul>
                     </li>
                     <?php endif; ?>
 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo lang('common_actions');?> <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acciones <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<?php echo site_url('admin/dashboard');?>"><?php echo lang('common_dashboard'); ?></a></li>
-                            <li><a href="<?php echo site_url();?>"><?php echo lang('common_front_end'); ?></a></li>
+                            <li><a target="_blank" href="<?php echo site_url();?>"><?php echo lang('common_front_end'); ?></a></li>
                             <li><a href="<?php echo site_url('admin/logout');?>"><?php echo lang('common_log_out'); ?></a></li>
                         </ul>
                     </li>

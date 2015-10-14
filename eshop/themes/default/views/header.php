@@ -76,10 +76,10 @@ if(isset($additional_header_info))
                     <ul class="nav nav-right mobileNav" style="font-size:14px; font-weight:bold; text-transform:uppercase;">
 
                         <?php if(CI::Login()->isLoggedIn(false, false)):?>
-                            <li>
+                            <li class="dropdown">
                                 <a><?php echo lang('account');?> <i class="icon-chevron-down"></i></a>
                                 <ul>
-                                    <li><a href="<?php echo  site_url('my-account');?>"><?php echo lang('my_account')?></a></li>
+                                    <li class="dropdown-toggle"><a href="<?php echo  site_url('my-account');?>"><?php echo lang('my_account')?></a></li>
                                     <li><a href="<?php echo site_url('logout');?>"><?php echo lang('logout');?></a></li>
                                 </ul>
                             </li>

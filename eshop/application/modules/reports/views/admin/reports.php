@@ -14,12 +14,6 @@
     </div>
 </div>
 
-
-<div class="row">
-    <div class="col-md-12" id="best_sellers"></div>
-</div>
-
-
 <div class="row">
     <div class="col-md-6">
     </div>

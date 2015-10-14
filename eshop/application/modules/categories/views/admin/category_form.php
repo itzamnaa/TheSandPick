@@ -16,7 +16,7 @@
         </div>
 
 
-        <div class="form-group">
+        <div class="form-group hide">
             <label for="excerpt"><?php echo lang('excerpt');?> </label>
             <?php echo form_textarea(['name'=>'excerpt', 'value'=>assign_value('excerpt', $excerpt), 'class'=>'form-control', 'rows'=>3]); ?>
         </div>
@@ -48,22 +48,22 @@
             <label for="parent_id"><?php echo lang('parent');?> </label>
             <?php echo form_dropdown('parent_id', $categories, $parent_id, 'class="form-control"'); ?>
         </div>
-        <div class="form-group">
+        <div class="form-group hide">
             <label for="slug"><?php echo lang('slug');?> </label>
             <?php echo form_input(['name'=>'slug', 'value'=>assign_value('slug', $slug), 'class'=>'form-control']); ?>
         </div>
         
-        <div class="form-group">
+        <div class="form-group hide">
             <label for="sequence"><?php echo lang('sequence');?> </label>
             <?php echo form_input(['name'=>'sequence', 'value'=>assign_value('sequence', $sequence), 'class'=>'form-control']); ?>
         </div>
 
-        <div class="form-group">
+        <div class="form-group hide">
             <label for="seo_title"><?php echo lang('seo_title');?> </label>
             <?php echo form_input(['name'=>'seo_title', 'value'=>assign_value('seo_title', $seo_title), 'class'=>'form-control']); ?>
         </div>
         
-        <div class="form-group">
+        <div class="form-group hide">
             <label><?php echo lang('meta');?></label> 
             <?php echo form_textarea(['rows'=>3, 'name'=>'meta', 'value'=>assign_value('meta', html_entity_decode($meta)), 'class'=>'form-control']); ?>
             <span class="help-block"><?php echo lang('meta_data_description');?></span>

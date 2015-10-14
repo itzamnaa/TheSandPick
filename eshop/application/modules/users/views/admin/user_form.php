@@ -22,7 +22,7 @@
         <?php echo form_input(['name'=>'email', 'class'=> 'form-control', 'value'=>assign_value('email', $email)]); ?>
     </div>
 
-    <div class="form-group">
+    <div class="form-group hide">
         <label><?php echo lang('access');?></label>
         <?php
         $options = ['Admin' => lang('admin'), 'Orders' => lang('orders')];

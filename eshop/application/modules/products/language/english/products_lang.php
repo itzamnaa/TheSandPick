@@ -105,9 +105,9 @@ $lang['alert_product_related'] = 'This product is already related.';
 $lang['alert_select_product'] = 'Please select a product to add first.';
 
 //messages & errors
-$lang['message_saved_product'] = 'The product has been saved.';
-$lang['message_bulk_update'] = 'Your products have been updated.';
-$lang['message_deleted_product']= 'The product has been deleted.';
-$lang['error_not_found'] = 'The requested product could not be found.';
+$lang['message_saved_product'] = 'El producto fue guardado.';
+$lang['message_bulk_update'] = 'El producto fue actualizado.';
+$lang['message_deleted_product']= 'El producto fue eliminado.';
+$lang['error_not_found'] = 'Producto no encontrado.';
 $lang['error_bulk_no_products'] = 'There are no products selected to bulk update';
 $lang['search_returned'] = 'Your searched returned %d result(s)';
