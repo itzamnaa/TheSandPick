@@ -103,7 +103,7 @@ $(document).ready(function(){
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Administrar <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a class="hide"> href="<?php echo site_url('admin/settings');?>"><?php echo lang('common_gocart_configuration'); ?></a></li>
-                            <li ><a href="<?php echo site_url('admin/shipping');?>"><?php echo lang('common_shipping_modules'); ?></a></li>
+                            <li class="hide"><a href="<?php echo site_url('admin/shipping');?>"><?php echo lang('common_shipping_modules'); ?></a></li>
                             <li class="hide"><a href="<?php echo site_url('admin/payments');?>"><?php echo lang('common_payment_modules'); ?></a></li>
                             <li><a href="<?php echo site_url('admin/settings/canned_messages');?>">Clientes por Pais</a></li>
                             <li class="hide"><a href="<?php echo site_url('admin/locations');?>"><?php echo lang('common_locations'); ?></a></li>
