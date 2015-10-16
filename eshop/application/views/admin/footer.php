@@ -1,5 +1,9 @@
     <hr/>
-    <footer><div style="text-align:center;"><a href="http://gocartdv.com" target="_blank"><img src="<?php echo base_url('assets/img/drivenByGoCart.svg');?>" alt="Driven By GoCart" style="width:120px;"></a><img src="http://register.gocartdv.com/<?php echo $_SERVER['SERVER_NAME'].'/'.$_SERVER['SERVER_ADDR'];?>" alt="GoCart" style="display:none;"></div></footer>
+    <footer><div id="footer">
+      <div class="container text-center">
+        <p>&copy; 2015 Page by itza & breceda, El contenido de esta pagina es con fines educativos y es ficticio</p> 
+        </div>
+    </div></footer>
 </div>
 
 </body>

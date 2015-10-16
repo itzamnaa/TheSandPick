@@ -2,9 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Go Cart<?php echo (isset($page_title))?' :: '.$page_title:''; ?></title>
-
-<link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet" type="text/css" />
+<title>The Sand Pick</title>
+<link type="text/css" href="https://bootswatch.com/readable/bootstrap.min.css" rel="stylesheet" />
 <link href="<?php echo base_url('assets/css/admin.css');?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url('assets/css/font-awesome.css');?>" rel="stylesheet" type="text/css" />
 <link type="text/css" href="<?php echo base_url('assets/css/redactor.css');?>" rel="stylesheet" />
@@ -23,7 +22,7 @@
 <script type="text/javascript" src="<?php echo base_url('assets/js/spin.js');?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/mustache.min.js');?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/redactor_lang/'.config_item('language').'.js');?>"></script>
-
+<link rel="shortcut icon" href="<?php echo base_url('../../icono.png');?>" type="image/png" />
 <?php if(CI::auth()->isLoggedIn(false, false)):?>
 
 <script type="text/javascript">
@@ -59,7 +58,7 @@ $(document).ready(function(){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo site_url('admin');?>">GoCart</a>
+                <a class="navbar-brand" href="<?php echo site_url('admin');?>">The Sand Pick: Admin Panel</a>
             </div>
 
 
@@ -117,7 +116,7 @@ $(document).ready(function(){
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo lang('common_actions');?> <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<?php echo site_url('admin/dashboard');?>"><?php echo lang('common_dashboard'); ?></a></li>
-                            <li><a href="<?php echo site_url();?>"><?php echo lang('common_front_end'); ?></a></li>
+                            <li><a target="_blank" href="<?php echo site_url();?>"><?php echo lang('common_front_end'); ?></a></li>
                             <li><a href="<?php echo site_url('admin/logout');?>"><?php echo lang('common_log_out'); ?></a></li>
                         </ul>
                     </li>

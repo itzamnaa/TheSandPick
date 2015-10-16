@@ -1,20 +1,10 @@
 </div>
 
-<footer>
-    <div class="container">
-        <nav>
-            <?php page_loop(0, 'class="nav nav-center"');?>
-        </nav>
-
-        <div class="credits">
-            <a href="http://gocartdv.com" target="_blank">
-                Driven by GoCart
-            </a>
-            <br>
-            <a href="http://gocartdv.com" target="_blank">Designed by Clear Sky Designs</a>
+    <div id="footer">
+      <div class="container text-center">
+        <p>&copy; 2015 Page by itza & breceda, El contenido de esta pagina es con fines educativos y es ficticio</p> 
         </div>
     </div>
-</footer>
 
 <script>
 setInterval(function(){
