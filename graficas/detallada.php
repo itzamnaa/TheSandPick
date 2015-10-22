@@ -6,7 +6,7 @@
                 zoomType: 'x'
             },
             title: {
-                text: 'Visitas a La pagina'
+                text: 'Popularitdad de la Pagina'
             },
             subtitle: {
                 text: document.ontouchstart === undefined ?
@@ -17,7 +17,7 @@
             },
             yAxis: {
                 title: {
-                    text: 'Exchange rate'
+                    text: 'Visitas por Dia'
                 }
             },
             legend: {

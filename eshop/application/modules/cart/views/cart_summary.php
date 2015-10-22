@@ -91,7 +91,7 @@
             <?php endif;?>
 
             <div class="col-nest">
-                <div class="col" data-cols="1/5">
+                <div class="col hide" data-cols="1/5">
                     <?php echo $photo;?>
                 </div>
 

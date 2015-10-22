@@ -16,6 +16,7 @@
                 <div class="col" data-cols="1/2">
                     <label for="account_firstname"><?php echo lang('account_firstname');?></label>
                     <?php echo form_input(['name'=>'firstname', 'value'=> assign_value('firstname', $customer['firstname'])]);?>
+                    
                 </div>
 
                 <div class="col" data-cols="1/2">
@@ -34,27 +35,26 @@
                 </div>
             </div>
 
-            <label class="checklist hide">
+            <label class="checklist hide disabled">
                 <input type="checkbox" name="email_subscribe" value="1" <?php if((bool)$customer['email_subscribe']) { ?> checked="checked" <?php } ?>/> <?php echo lang('account_newsletter_subscribe');?>
             </label>
         
-            <div style="margin:30px 0px 10px; text-align:center;">
+            <div class="hide" style="margin:30px 0px 10px; text-align:center;">
                 <strong><?php echo lang('account_password_instructions');?></strong>
             </div>
         
-            <div class="col-nest">
+            <div class="col-nest hide">
                 <div class="col" data-cols="1/2">
                     <label for="account_password"><?php echo lang('account_password');?></label>
                     <?php echo form_password(['name'=>'password']);?>
                 </div>
 
-                <div class="col" data-cols="1/2">
+                <div class="col hide" data-cols="1/2">
                     <label for="account_confirm"><?php echo lang('account_confirm');?></label>
                     <?php echo form_password(['name'=>'confirm']);?>
                 </div>
             </div>
-        
-            <input type="submit" value="<?php echo lang('form_submit');?>" class="blue" />
+            <input class="hide" type="submit" value="<?php echo lang('form_submit');?>" class="blue" />
         </form>
     </div>
 
@@ -104,6 +104,7 @@
 
 <script>
 $(document).ready(function(){
+    $( "#x" ).prop( "disabled", true );
     loadAddresses();
 });
 

@@ -56,7 +56,7 @@
         series: [{
             name: 'Envio',
             data: [ <?php
-                $result = mysql_query('select name from products');
+                $result = mysql_query('select name from products where primary_category!=1;');
                 while ($fila = mysql_fetch_array($result, MYSQL_BOTH)) {?>
                     parseInt(<?php echo '500'?>), 
                     <?php  
@@ -68,7 +68,7 @@
             name: 'Compra',
             data: 
            [ <?php
-                $result = mysql_query('select price_1 from products');
+                $result = mysql_query('select price_1 from products where primary_category!=1;');
                 while ($fila = mysql_fetch_array($result, MYSQL_BOTH)) {?>
                     parseInt(<?php echo $fila['0']?>), 
                     <?php  
@@ -79,7 +79,7 @@
         }, {
             name: 'Venta',
             data: [ <?php
-                $result = mysql_query('select saleprice_1 from products');
+                $result = mysql_query('select saleprice_1 from products where primary_category!=1;');
                 while ($fila = mysql_fetch_array($result, MYSQL_BOTH)) {?>
                     parseInt(<?php echo $fila['0']?>), 
                     <?php  
