@@ -94,7 +94,7 @@ if(isset($additional_header_info))
                 <?php echo form_open('search', 'class="navbar-search pull-right"');?>
                     <div class="btn-group">
                         <div><input type="text" name="term" class="search-query" placeholder="<?php echo lang('search');?>"/></div>
-                        <div><button class="btn btn-primary" type="submit"><?php echo lang('search');?></button></div>
+                        <div><input type="submit" value="<?php echo lang('search');?>"/></div>
                     </div>
                 </form>
             </div>
@@ -110,8 +110,8 @@ if(isset($additional_header_info))
             </div>
         </div>
 
-        <nav class="">
-            <ul class="nav mobileNav breadcrumbs">
+        <nav class="navPrimary">
+            <ul class="nav mobileNav">
                 <li><a href="<?php echo base_url('/page/inicio');?>"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>
                 <?php
                     category_loop(0, false, false);
@@ -119,17 +119,15 @@ if(isset($additional_header_info))
                 ?>
             </ul>
         </nav>
+
     </div>
 </header>
-<br><!-- Evita problemas en el css, si estorba borrarlo-->
+
 <div class="main container">
     <?php if (CI::session()->flashdata('message')):?>
         <div class="alert blue">
             <?php echo CI::session()->flashdata('message');?>
         </div>
     <?php endif;?>
-    <?php
-    //Genera la barra de navegacion por categorias, pero no funciona
-    //echo CI::breadcrumbs()->generate();
-     ?>
-    
+
+    <?php echo CI::breadcrumbs()->generate(); ?>
