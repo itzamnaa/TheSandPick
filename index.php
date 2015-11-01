@@ -52,6 +52,7 @@
                             <li><a href="#portfolio">Cursos</a></li>
                             <li><a href="#about">Sobre Nosotros</a></li>
                             <li><a href="#contact">Contacto</a></li>
+                            <li><a href="/eshop/page/inicio">Tienda en Linea</a></li>
                         </ul>
                     </div>
                     <!-- End main navigation -->
@@ -151,7 +152,10 @@
                 </div>
             </div>
         </div>
-        <!-- Service section end -->
+        <!-- Service section end////////////Test de iframe :v -->
+        <div id="dajax" class="section"></div>
+       
+        </script>
         <!-- Portfolio section start -->
         <div class="section secondary-section " id="portfolio">
             <div class="triangle"></div>
@@ -742,6 +746,12 @@
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript">
+        $(function () {
+            // body...
+            $('.triangle').hide();
+        });
+        </script>
     </body>
     <?php  
         $query="insert into visit values(now())";

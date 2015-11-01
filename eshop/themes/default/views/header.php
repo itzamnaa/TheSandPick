@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title><?php echo (!empty($seo_title)) ? $seo_title .' - ' : ''; echo config_item('company_name'); ?></title>
-<link rel="shortcut icon" href="<?php echo base_url('../../icono.png');?>" />
+<link rel="shortcut icon" href="<?php echo base_url('../../images/ico/favicon.ico');?>" />
 <?php if(isset($meta)):?>
 <?php echo (strpos($meta, '<meta') !== false) ? $meta : '<meta name="description" content="'.$meta.'" />';?>
 <?php else:?>
@@ -67,7 +67,6 @@ if(isset($additional_header_info))
     <div class="container">
         <div class="col-nest">
             <div class="col" data-cols="1/2">
-            
                 <a  href="<?php echo base_url('/page/inicio');?>"><img src="<?php echo base_url('../../logo.png');?>"  height="60"/></a>
             </div>
             <div class="col" data-cols="1/2">
@@ -121,7 +120,7 @@ if(isset($additional_header_info))
         </nav>
     </div>
 </header>
-<br><!-- Evita problemas en el css, si estorba borrarlo-->
+<br>
 <div class="main container">
     <?php if (CI::session()->flashdata('message')):?>
         <div class="alert blue">

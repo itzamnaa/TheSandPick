@@ -33,7 +33,7 @@ $lang['seo'] = 'SEO';
 $lang['parent'] = 'Parentesco';
 $lang['meta_data_description'] = 'ex. &lt;meta name="description" content="We sell products that help you" /&gt;';
 $lang['drag_and_drop'] = 'Arrastra los productos en el orden que quieres que se muestren.';
-$lang['sku'] = 'SKU';
+$lang['sku'] = 'PID';
 $lang['price'] = 'Precio';
 $lang['sale'] = 'Precio de Venta';
 $lang['max_file_size'] = 'Tamaño Maximo de Archivo';
