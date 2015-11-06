@@ -9,7 +9,7 @@
     </div>
     <?php endif;?>
 
-    <div class="productsFilter">
+    <div class="productsFilterm hide">
         <div class="pull-right">
             <select id="sort">
                 <option<?php echo($sort=='name' && $dir == 'ASC')?' selected="selected"':'';?> value="<?php echo site_url('category/'.$slug.'/name/ASC/'.$page);?>"><?php echo lang('sort_by_name_asc');?></option>

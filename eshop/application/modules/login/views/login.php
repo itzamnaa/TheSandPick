@@ -18,7 +18,7 @@
                 <input name="remember" value="true" type="checkbox" />
                  <?php echo lang('keep_me_logged_in');?>
             </label>
-
+            <br>
             <input type="submit" value="<?php echo lang('form_login');?>" name="submit" class="blue"/>
         </form>
 

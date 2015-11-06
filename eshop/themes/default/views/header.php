@@ -67,12 +67,11 @@ if(isset($additional_header_info))
     <div class="container">
         <div class="col-nest">
             <div class="col" data-cols="1/2">
-                <a  href="<?php echo base_url('/page/inicio');?>"><img src="<?php echo base_url('../../logo.png');?>"  height="60"/></a>
+                <a  href="<?php echo base_url('/page/inicio');?>"><img src="<?php echo base_url('../../logo.png');?>"  height="50"/></a>
             </div>
             <div class="col" data-cols="1/2">
                 <nav> 
-                    <ul class="nav nav-right mobileNav" style="font-size:14px; font-weight:bold; text-transform:uppercase;">
-
+                    <ul id="diva" class="nav nav-right mobileNav" style="font-size:14px; font-weight:bold; text-transform:uppercase;">
                         <?php if(CI::Login()->isLoggedIn(false, false)):?>
                             <li class="dropdown">
                                 <a><?php echo lang('account');?> <i class="icon-chevron-down"></i></a>
@@ -91,14 +90,13 @@ if(isset($additional_header_info))
                 </nav>
 
                 <?php echo form_open('search', 'class="navbar-search pull-right"');?>
-                    <div class="btn-group">
+                    <div class="btn-group hide">
                         <div><input type="text" name="term" class="search-query" placeholder="<?php echo lang('search');?>"/></div>
                         <div><button class="btn btn-primary" type="submit"><?php echo lang('search');?></button></div>
                     </div>
                 </form>
             </div>
         </div>
-
         <div class="mobileNavContainer">
             <span class="menuBtn" onclick="$('.navbarMobileContainer').show();"> <span></span> <span></span> <span></span> </span>
             <div class="navbarMobileContainer">
@@ -108,7 +106,7 @@ if(isset($additional_header_info))
                 <ul class="navbarMobile navbar mobile"></ul>
             </div>
         </div>
-
+        <br>
         <nav class="">
             <ul class="nav mobileNav breadcrumbs">
                 <li><a href="<?php echo base_url('/page/inicio');?>"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>

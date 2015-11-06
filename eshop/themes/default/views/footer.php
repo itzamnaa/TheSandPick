@@ -82,22 +82,64 @@ color: #181A1C;
 .triangle{
      z-index: -1;
 }
-h1{
+h1,h2,h3,h4{
     font-family: 'Palanquin Dark', sans-serif;
 }
 .breadcrumbs *{
     font-family: 'Handlee', cursive;
     z-index: 4;
 }
-button{
-    border-bottom-right-radius: 10%;
+button,input[type=submit]{
+    border-radius: 6px;
 }
-
+table{  
+   background-color:  rgba(0,0,0,0.1);
+}
+table *{
+    border
+}
+#payment-cod{
+    background-color: transparent;
+}
+#diva *{
+    color: #FECE1A;
+    border-radius: 5%;
+}
+#diva li{
+    color: #FECE1A;
+    background-color: #181A1C;
+}
+#diva a:hover{
+    color: #181A1C;
+    background-color: #FECE1A;
+}
+#diva a:hover > i{
+    color: #181A1C;
+    background-color: #FECE1A;
+}
+#diva a:hover > span{
+    color: #181A1C;
+    background-color: #FECE1A;
+}
+.categoryItemHover{
+    background-color: red;
+}
+.gumbo-tray-content{
+    background-color:  rgba(254,206,26,0.9);
+    color: #181A1C;
+}
+.orderSummary{
+    background-color: transparent;
+}
+.cartSummaryTitle{
+    font-family: 'Palanquin Dark', sans-serif;
+}
 </style>
 <script type="text/javascript">
         $(function () {
             // body...
             $('.triangle').hide();
+            $('previewImg').height('500px');
         });
         </script>
 </html>

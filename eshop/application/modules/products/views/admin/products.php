@@ -25,7 +25,7 @@ function areyousure()
 </style>
 <div class="row">
     <div class="col-md-12">
-        <div class="row">
+        <div class="row hide">
             <div class="col-md-4">
                 <?php echo CI::pagination()->create_links();?>  &nbsp;
             </div>
@@ -95,10 +95,9 @@ function areyousure()
                     }
                 ?>
                 <?php foreach($groups as $group):?>
-                    <th><?php echo $group->name;?></th>
+                    <th>En venta</th>
                 <?php endforeach; ?>
                 <th style="width:16%">
-
                 </th>
             </tr>
         </thead>
@@ -110,7 +109,8 @@ function areyousure()
                 <td><?php echo $product->name;?></td>
                 <td>
                     <?php if ((bool)$product->track_stock):?>
-                        <?php echo form_input(['name'=>'product['.$product->id.'][quantity]', 'value'=>assign_value('quantity', $product->quantity), 'class'=>'form-control tableInput']);?>
+                        <?php echo form_input(['name'=>'product['.$product->id.'][quantity]', 'value'=>assign_value('quantity', $product->quantity), 'class'=>'form-control tableInput hide']);?>
+                        <?php echo $product->quantity; ?>
                     <?php endif; ?>
                 </td>
                 <?php foreach($groups as $group):?>
