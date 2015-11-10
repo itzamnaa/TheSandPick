@@ -153,9 +153,7 @@
             </div>
         </div>
         <!-- Service section end////////////Test de iframe :v -->
-        <div id="dajax" class="section"></div>
-       
-        </script>
+        
         <!-- Portfolio section start -->
         <div class="section secondary-section " id="portfolio">
             <div class="triangle"></div>
@@ -168,14 +166,17 @@
                     <li class="filter" data-filter="all">
                         <a href="#noAction">Todos</a>
                     </li>
-                    <li class="filter" data-filter="web">
-                        <a href="#noAction">Entre Semana</a>
+                    <li class="filter" data-filter="guitarra">
+                        <a href="#noAction">Guitarra</a>
                     </li>
-                    <li class="filter" data-filter="photo">
-                        <a href="#noAction">Fines de Semana</a>
+                    <li class="filter" data-filter="piano">
+                        <a href="#noAction">Piano</a>
                     </li>
-                    <li class="filter" data-filter="identity">
-                        <a href="#noAction">Nocturnos</a>
+                    <li class="filter" data-filter="violin">
+                        <a href="#noAction">Violin</a>
+                    </li>
+                    <li class="filter" data-filter="bateria">
+                        <a href="#noAction">Bateria</a>
                     </li>
                 </ul>
                 <!-- Start details for portfolio project 1 -->
@@ -187,23 +188,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Curso de Guitarra Acurtica principiante</h3>
+                                    <h3>Curso de Guitarra Acústica</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Instrumento</span>Some Client Name</div>
+                                        <span>Nivel</span>Principiante</div>
                                     <div>
-                                        <span>Fecha de Inicio</span>8 de Agosto</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Horario</span>Lunes, Miercoles y Viernes de 10 a 12 am.</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
                                        <a href="#"  class="button button-sp">Inscribirme</a>
                                     </div>
                                 </div>
-                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
+                                <p>Este curso es para las personas que estén dispuestas a empezar en el instrumento, se enseñan conceptos básicos y se da la base para empezar</p>
                             </div>
                         </div>
                     </div>
@@ -216,23 +217,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Curso de Piano</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Principiante</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
                                     </div>
                                 </div>
-                                <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
+                                <p>Este curso es para las personas que estén dispuestas a empezar en el instrumento, se enseñan conceptos básicos y se da la base para empezar</p>
                             </div>
                         </div>
                     </div>
@@ -245,22 +246,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Curso de Violin</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Principiante</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
+                                    </div>
                                 </div>
-                                <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+                                <p>Este curso es para las personas que estén dispuestas a empezar en el instrumento, se enseñan conceptos básicos y se da la base para empezar</p>
                             </div>
                         </div>
                     </div>
@@ -273,22 +275,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Project for Some Client</h3>
+                                    <h3>Curso de Bateria</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Principiante</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
+                                    </div>
                                 </div>
-                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+                                <p>Este curso es para las personas que estén dispuestas a empezar en el instrumento, se enseñan conceptos básicos y se da la base para empezar</p>
                             </div>
                         </div>
                     </div>
@@ -301,22 +304,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Curso de Guitarra Acústica</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Intermedio</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
+                                    </div>
                                 </div>
-                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
+                                <p>Este curso esta diseñado para las personas que ya cuentan una base en el instrumento, en este curso se enseñan escalas musicales entre otras técnicas mas avanzadas</p>
                             </div>
                         </div>
                     </div>
@@ -329,22 +333,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Curso de Piano</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Intermedio</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
+                                    </div>
                                 </div>
-                                <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
+                                <p>Este curso esta diseñado para las personas que ya cuentan una base en el instrumento, en este curso se enseñan escalas musicales entre otras técnicas mas avanzadas</p>
                             </div>
                         </div>
                     </div>
@@ -357,22 +362,25 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Curso de Piano</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Avanzado</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
+                                    </div>
                                 </div>
-                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
+                                <p>
+                                    Este curso esta diseñado para personas con conocimientos intermedios en el instrumento, se enseña la lectura e interpretación de partituras, así como improvisación y técnicas avanzadas en el instrumento
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -385,22 +393,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Curso de Violin</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Principiante</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
+                                    </div>
                                 </div>
-                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
+                                <p>Este curso esta diseñado para las personas que ya cuentan una base en el instrumento, en este curso se enseñan escalas musicales entre otras técnicas mas avanzadas</p>
                             </div>
                         </div>
                     </div>
@@ -413,123 +422,124 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Curso de Guitarra Eléctrica</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Nivel</span>Principiante</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Fecha de Inicio</span>16 de Agosto</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Horario</span>Lunes, Miercoles y Viernes de 4 a 6 pm.</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                       <a href="#"  class="button button-sp">Inscribirme</a>
+                                    </div>
                                 </div>
-                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+                                <p>Este curso esta diseñado para personas con conocimientos intermedios en el instrumento, se enseña la lectura e interpretación de partituras, así como improvisación y técnicas avanzadas en el instrumento</p>
                             </div>
                         </div>
                     </div>
                     <!-- End details for portfolio project 9 -->
                     <ul id="portfolio-grid" class="thumbnails row">
-                        <li class="span4 mix web">
+                        <li class="span4 mix guitarra">
                             <div class="thumbnail">
                                 <img src="images/playguitar.jpg" alt="project 1">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                     <i class="icon-plus"></i>
                                 </a>
                                 <h3>Curso de Guitarra</h3>
-                                <p>Turno Matutino</p>
+                                <p>Principiante</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix photo">
+                        <li class="span4 mix piano">
                             <div class="thumbnail">
                                 <img src="images/playpiano.jpg" alt="project 2">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Piano</h3>
+                                <p>Principiante</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix identity">
+                        <li class="span4 mix violin">
                             <div class="thumbnail">
                                 <img src="images/playviolin.jpg" alt="project 3">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Violin</h3>
+                                <p>Principiante</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix web">
+                        <li class="span4 mix bateria">
                             <div class="thumbnail">
                                 <img src="images/playbateria.jpg" alt="project 4">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Bateria</h3>
+                                <p>Principiante</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix photo">
+                        <li class="span4 mix guitarra">
                             <div class="thumbnail">
                                 <img src="images/playguitar.jpg" alt="project 5">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Guitarra</h3>
+                                <p>Intermedio</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix identity">
+                        <li class="span4 mix piano">
                             <div class="thumbnail">
                                 <img src="images/playpiano.jpg" alt="project 6">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Piano</h3>
+                                <p>Intermedio</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix web">
+                        <li class="span4 mix piano">
                             <div class="thumbnail">
                                 <img src="images/playpiano.jpg" alt="project 7" />
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Piano</h3>
+                                <p>Avanzado</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix photo">
+                        <li class="span4 mix violin">
                             <div class="thumbnail">
                                 <img src="images/playviolin.jpg" alt="project 8">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Violin</h3>
+                                <p>Intermedio</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix identity">
+                        <li class="span4 mix guitarra">
                             <div class="thumbnail">
                                 <img src="images/playguitar.jpg" alt="project 9">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Curso de Guitarra</h3>
+                                <p>Avanzado</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -740,18 +750,40 @@
         <script type="text/javascript" src="js/jquery.placeholder.js"></script>
         <script type="text/javascript" src="js/jquery.inview.js"></script>
         <!-- Load google maps api and call initializeMap function defined in app.js -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?callback=initializeMap"></script>
         <!-- css3-mediaqueries.js for IE8 or older -->
         <!--[if lt IE 9]>
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript">
-        $(function () {
-            // body...
-            $('.triangle').hide();
-        });
-        </script>
+        var lat = '21.924667'; //Set your latitude.
+    var lon = '-102.310665'; //Set your longitude.
+
+    var centerLon = lon - 0.0105;
+
+    var myOptions = {
+        scrollwheel: false,
+        draggable: false,
+        disableDefaultUI: true,
+        center: new google.maps.LatLng(lat, centerLon),
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    //Bind map to elemet with id map-canvas
+    var map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);
+    var marker = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(lat, lon),
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    google.maps.event.addListener(marker, 'click', function () {
+        infowindow.open(map, marker);
+    });
+    infowindow.open(map, marker);</script>
     </body>
     <?php  
         $query="insert into visit values(now())";

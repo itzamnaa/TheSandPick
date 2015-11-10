@@ -22,31 +22,83 @@
 <div class="container">
 <p></p>
   <ul class="nav nav-pills">
-    <li class="active"><a id="g1" data-toggle="pill" href="#home">Lineas</a></li>
-    <li><a id="g2" data-toggle="pill" href="#menu1">Pastel</a></li>
-    <li><a id="g3" data-toggle="pill" href="#menu2">Dinamica</a></li>
-    <li><a id="g4" data-toggle="pill" href="#menu3">Varias</a></li>
-    <li><a id="g5" data-toggle="pill" href="#menu3">Polar</a></li>
-    <li><a id="g6" data-toggle="pill" href="#menu3">Barras</a></li>
-    <li><a id="g7" data-toggle="pill" href="#menu3">Medidores</a></li>
-    <li><a id="g8" data-toggle="pill" href="#menu3">Pastel Anidado</a></li>
-    <li><a id="g9" data-toggle="pill" href="#menu3">Detallada</a></li>
-    <li><a id="g10" data-toggle="pill" href="#menu3">Barra Doble</a></li>
-    <li><a id="g11" data-toggle="pill" href="#menu3">Area</a></li>
+    <li class="active"><a id="g1" data-toggle="pill" href="#p1">Ventas Mensuales</a></li>
+    <li><a id="g2" data-toggle="pill" href="#p2">Demanda de Cursos</a></li>
+    <li><a id="g3" data-toggle="pill" href="#p3">Dinamica</a></li>
+    <li><a id="g4" data-toggle="pill" href="#p4">Situacion Funanciera</a></li>
+    <li><a id="g5" data-toggle="pill" href="#p5">Polar</a></li>
+    <li><a id="g6" data-toggle="pill" href="#p6">Diponibilidad de Almance</a></li>
+    <li><a id="g7" data-toggle="pill" href="#p7">Medidores</a></li>
+    <li><a id="g8" data-toggle="pill" href="#p8">Pastel Anidado</a></li>
+    <li><a id="g9" data-toggle="pill" href="#p9">Visitas a la Tienda</a></li>
+    <li><a id="g10" data-toggle="pill" href="#p10">Relacion de Costos por Producto</a></li>
+    <li><a id="g11" data-toggle="pill" href="#p11">Area</a></li>
   </ul>
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active" ></div>
-    <div id="menu1" class="tab-pane fade"></div>
-    <div id="menu2" class="tab-pane fade" ></div>
-    <div id="menu3" class="tab-pane fade" ></div>
-  </div>
   <div class="row">
   <p></p>
   <div class="jumbotron">
   <div id="result"></div>
   </div>
 </div>
+<div class="tab-content row">
+    <div id="p1" class="tab-pane fade in active" >
+      <div class="well well-sm">
+        <p>1</p>
+      </div>
+    </div>
+    <div id="p2" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>2</p>
+      </div>
+    </div>
+    <div id="p3" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>3</p>
+      </div>
+    </div>
+    <div id="p4" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>4</p>
+      </div>
+    </div>
+    <div id="p5" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>5</p>
+      </div>
+    </div>
+    <div id="p6" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>6</p>
+      </div>
+    </div>
+    <div id="p7" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>7</p>
+      </div>
+    </div>
+    <div id="p8" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>8</p>
+      </div>
+    </div>
+    <div id="p9" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>9</p>
+      </div>
+    </div>
+    <div id="p10" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>10</p>
+      </div>
+    </div>
+    <div id="p11" class="tab-pane fade" >
+      <div class="well well-sm">
+        <p>11</p>
+      </div>
+    </div>
 </div>
+</div>
+
 </body>
 <script type="text/javascript">
     $(function () {

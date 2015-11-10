@@ -1,5 +1,6 @@
 <div class="page-header">
     <h1><?php echo $product->name;?></h1>
+    <p></p>
 </div>
 
 <div class="col-nest">

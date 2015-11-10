@@ -105,9 +105,6 @@ Class ProductOptions extends CI_Model
         
         $this->deleteOptionValues($id);
     }
-    
-
-
     /********************************************************************
         Option values Management
     ********************************************************************/

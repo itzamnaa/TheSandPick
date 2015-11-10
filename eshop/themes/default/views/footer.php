@@ -86,7 +86,8 @@ h1,h2,h3,h4{
     font-family: 'Palanquin Dark', sans-serif;
 }
 .breadcrumbs *{
-    font-family: 'Handlee', cursive;
+    font-family: 'Handlee', bold;
+    font-weight:bold;
     z-index: 4;
 }
 button,input[type=submit]{
