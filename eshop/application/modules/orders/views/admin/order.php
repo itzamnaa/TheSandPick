@@ -2,10 +2,10 @@
     <h1><?php echo lang('order');?>: <?php echo $order->order_number;?></h1>
 </div>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 hide">
         <a class="btn btn-primary" href="<?php echo site_url('admin/orders/packing_slip/'.$order->order_number);?>" target="_blank"><i class="icon-file"></i> <?php echo lang('packing_slip');?></a>
     </div>
-    <div class="col-md-6 text-right">
+    <div class="col-md-6 ">
         <a class="btn btn-danger" onclick="if(!confirm('<?php echo lang('confirm_delete_order');?>')) { return false; }" href="<?php echo site_url('admin/orders/delete/'.$order->id);?>" target="_blank"><i class="icon-cancel"></i> <?php echo lang('delete');?></a>
     </div>
 </div>
@@ -13,7 +13,7 @@
 <div style="margin:10px 0px;">
     <div class="row">
 
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h3><?php echo lang('shipping_address');?></h3>
             <?php echo format_address([
                 'company'=>$order->shipping_company,
@@ -29,7 +29,7 @@
                 'country_id'=>$order->shipping_country_id
                 ]);?>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h3><?php echo lang('billing_address');?></h3>
             <?php echo format_address([
                 'company'=>$order->billing_company,
@@ -45,13 +45,13 @@
                 'country_id'=>$order->billing_country_id
                 ]);?>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h3><?php echo lang('payment_method');?></h3>
             <?php foreach($order->payments as $payment):?>
                 <div><?php echo $payment->description;?></div>
             <?php endforeach;?>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 hide">
             <?php echo form_open('admin/orders/order/'.$order->order_number);?>
 
                 <div class="form-group">

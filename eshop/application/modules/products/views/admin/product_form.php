@@ -124,9 +124,9 @@
                                     <th><i class="icon-eye-slash"></i></th>
                                     <th><?php echo lang('name')?></th>
                                     <?php foreach ($groups as $group):?>
-                                        <th><?php echo $group->name;?></th>
+                                        <th>En venta</th>
                                     <?php endforeach;?>
-                                    <th class="text-center"><?php echo lang('in').'/'.lang('main'); ?></th>
+                                    <th class="text-center">Categoria</th>
                                 </tr>
                             </thead>
                         <?php
@@ -301,7 +301,7 @@
             <?php foreach($groups as $group):?>
                 <fieldset>
                     <legend>
-                        <?php echo $group->name;?>
+                        En Venta
                         <div class="checkbox pull-right" style="font-size:16px; margin-top:5px;">
                             <label>
                                 <?php echo form_checkbox('enabled_'.$group->id, 1, ${'enabled_'.$group->id}); ?> <?php echo lang('enabled');?>

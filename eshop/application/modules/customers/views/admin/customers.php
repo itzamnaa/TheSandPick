@@ -51,7 +51,6 @@ function areyousure()
     <tbody>
         <?php
         $page_links = CI::pagination()->create_links();
-
         if($page_links != ''):?>
         <tr><td colspan="5" style="text-align:center"><?php echo $page_links;?></td></tr>
         <?php endif;?>
@@ -62,10 +61,10 @@ function areyousure()
             <td><?php echo  $customer->lastname; ?></td>
             <td class="gc_cell_left"><?php echo  $customer->firstname; ?></td>
             <td><a href="mailto:<?php echo  $customer->email;?>"><?php echo  $customer->email; ?></a></td>
-            <td>
+            <td class="hide">
                 <?php if($customer->active == 1)
                 {
-                    echo 'Yes';
+                    echo 'Si';
                 }
                 else
                 {
@@ -73,6 +72,11 @@ function areyousure()
                 }
                 ?>
             </td>
+            <script type="text/javascript">
+            $(function(){
+                $("th:contains('Activo')").hide();
+            });
+            </script>
             <td class="text-right">
                 <div class="btn-group">
                     <a class="btn btn-default" href="<?php echo site_url('admin/customers/form/'.$customer->id); ?>"><i class="icon-pencil"></i></a>

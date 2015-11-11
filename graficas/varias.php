@@ -3,14 +3,15 @@
 	$(function () {
     $('#container').highcharts({
         title: {
-            text: 'Combination chart'
+            text: 'Situación Financiera'
         },
         xAxis: {
-            categories: ['Apples', 'Oranges', 'Pears', 'Bananas', 'Plums']
+            categories: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+                'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
         },
         labels: {
             items: [{
-                html: 'Total fruit consumption',
+                html: 'Resumen Anual',
                 style: {
                     left: '50px',
                     top: '18px',
@@ -20,20 +21,16 @@
         },
         series: [{
             type: 'column',
-            name: 'Jane',
-            data: [3, 2, 1, 3, 4]
+            name: 'Ventas',
+            data: [6805, 7347, 10485, 15304, 19389, 20984, 22372, 23123, 24562, 27398, 13940, null]
         }, {
             type: 'column',
-            name: 'John',
-            data: [2, 3, 5, 7, 6]
-        }, {
-            type: 'column',
-            name: 'Joe',
-            data: [4, 3, 3, 9, 0]
+            name: 'Costos',
+            data: [2205, 2047, 4585, 4004, 6689, 6584, 6572, 7223, 9562, 9398, 10398, 10234]
         }, {
             type: 'spline',
-            name: 'Average',
-            data: [3, 2.67, 3, 6.33, 3.33],
+            name: 'Objetivo',
+            data: [4008, 6088, 8168, 10248, 12328, 14408, 16488,18668, 20648, 22728, 24808, 26888],
             marker: {
                 lineWidth: 2,
                 lineColor: Highcharts.getOptions().colors[3],
@@ -41,19 +38,15 @@
             }
         }, {
             type: 'pie',
-            name: 'Total consumption',
+            name: '%',
             data: [{
-                name: 'Jane',
-                y: 13,
+                name: 'Ventas',
+                y: 77,
                 color: Highcharts.getOptions().colors[0] // Jane's color
             }, {
-                name: 'John',
+                name: 'Costos',
                 y: 23,
                 color: Highcharts.getOptions().colors[1] // John's color
-            }, {
-                name: 'Joe',
-                y: 19,
-                color: Highcharts.getOptions().colors[2] // Joe's color
             }],
             center: [100, 80],
             size: 100,

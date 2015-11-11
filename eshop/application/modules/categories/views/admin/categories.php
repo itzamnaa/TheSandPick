@@ -14,10 +14,10 @@ function areyousure()
 <table class="table table-striped">
     <thead>
         <tr>
-            <th><i class="icon-eye-slash"></i></th>
+            <th><i class="icon-eye-slash hide"></i></th>
             <th><?php echo lang('name')?></th>
             <?php foreach($groups as $group):?>
-                <th><?php echo $group->name;?></th>
+                <th>En venta</th>
             <?php endforeach; ?>
             <th></th>
         </tr>

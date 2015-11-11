@@ -52,7 +52,7 @@ if ($term):?>
         margin-top:-3px;
     }
 </style>
-<div class="row">
+<div class="row hide">
     <div class="col-md-4">
         <?php echo CI::pagination()->create_links();?>&nbsp;
     </div>

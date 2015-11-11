@@ -10,7 +10,7 @@
             <?php echo form_input(['name'=>'name', 'value'=>assign_value('name', $name), 'class'=>'form-control']); ?>
         </div>
 
-        <div class="form-group">
+        <div class="form-group hide">
             <label for="description"><?php echo lang('description');?></label>
             <?php echo form_textarea(['name'=>'description', 'class'=>'redactor', 'value'=>assign_value('description', $description)]); ?>
         </div>
@@ -21,7 +21,7 @@
             <?php echo form_textarea(['name'=>'excerpt', 'value'=>assign_value('excerpt', $excerpt), 'class'=>'form-control', 'rows'=>3]); ?>
         </div>
 
-        <div class="form-group">
+        <div class="form-group hide">
             <label for="image"><?php echo lang('image');?> </label>
             <div class="input-append">
                 <?php echo form_upload(array('name'=>'image', 'class'=>'form-control'));?>
@@ -34,17 +34,17 @@
             <?php endif;?>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 hide">
         <?php foreach($groups as $group):?>
             <fieldset>
-                <legend><?php echo $group->name;?></legend>
+                <legend class="hide">En venta</legend>
                 <div class="form-group">
                     <?php echo form_dropdown('enabled_'.$group->id, [1 => lang('enabled'), 0 => lang('disabled')], assign_value('enabled_'.$group->id,${'enabled_'.$group->id}), 'class="form-control"'); ?>
                 </div>
             </fieldset>
         <?php endforeach;?>
 
-        <div class="form-group">
+        <div class="form-group hide">
             <label for="parent_id"><?php echo lang('parent');?> </label>
             <?php echo form_dropdown('parent_id', $categories, $parent_id, 'class="form-control"'); ?>
         </div>

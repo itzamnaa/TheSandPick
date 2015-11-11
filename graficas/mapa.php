@@ -25,6 +25,11 @@
         </div>
     </div>
 </div>
+
+        <p>
+         El mapa representa la distribución de clientes por país. Entre mas fuerte sea el tono de color azul, mas clientes se encuentran ubicados en estos
+         </p>
+      
 <?php  
         $query="select lcase(country_code),count(country_code) from customers_address_bank group by country_code";
         $server = "localhost";

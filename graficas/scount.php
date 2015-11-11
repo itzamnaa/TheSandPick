@@ -1,0 +1,1 @@
+<?php echo "<input id='count' type='number' name='lastname' value=".count(glob(session_save_path() . '/*')).'></input>'; ?>

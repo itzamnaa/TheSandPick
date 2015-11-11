@@ -6,7 +6,7 @@ Admin Customer Language
 
 $lang['customers'] = 'Clientes';
 $lang['customer_form'] = 'Agregar Cliente';
-$lang['firstname'] = 'Formulario de Clientes';
+$lang['firstname'] = 'Nombre';
 $lang['lastname'] = 'Apellido';
 $lang['email'] = 'Correo Electronico';
 $lang['phone'] = 'Telefono';
