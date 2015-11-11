@@ -124,9 +124,9 @@
                                     <th><i class="icon-eye-slash"></i></th>
                                     <th><?php echo lang('name')?></th>
                                     <?php foreach ($groups as $group):?>
-                                        <th>En venta</th>
+                                        <th>En Venta</th>
                                     <?php endforeach;?>
-                                    <th class="text-center">Categoria</th>
+                                    <th class="text-center"><?php echo lang('in').'/'.lang('main'); ?></th>
                                 </tr>
                             </thead>
                         <?php

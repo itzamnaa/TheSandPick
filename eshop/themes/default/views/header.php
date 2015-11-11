@@ -109,7 +109,7 @@ if(isset($additional_header_info))
         <br>
         <nav class="">
             <ul class="nav mobileNav breadcrumbs">
-                <li><a href="<?php echo base_url('/..');?>"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>
+                <li><a href="<?php echo site_url('my-account');?>"><i class="icon-home"></i> <span class="homeLinkText">Home</span></a></li>
                 <?php
                     category_loop(0, false, false);
                     page_loop(0, false, false);

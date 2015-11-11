@@ -51,7 +51,7 @@
                             <li><a href="#portfolio">Cursos</a></li>
                             <li><a href="#about">Sobre Nosotros</a></li>
                             <li><a href="#contact">Contacto</a></li>
-                            <li><a href="/eshop/page/inicio">Tienda en Linea</a></li>
+                            <li><a href="eshop/my-account">Tienda en Linea</a></li>
                         </ul>
                     </div>
                     <!-- End main navigation -->
@@ -72,7 +72,7 @@
                         <h2 class="fittext2">Bienvenido a The Sand Pick</h2>
                         <h4>Tienda de instrumentos musicales</h4>
                         <p>Puedas darte una vuelta por nuestro catálogos, contamos con servicio de envió a domicilio, asesoría, inscripción a cursos para aprender a tocar instrumentos musicales y mucho más!</p>
-                        <a href="eshop/login" class="da-link button">Empezar a comprar</a>
+                        <a href="eshop/my-account" class="da-link button">Empezar a comprar</a>
                         <div class="da-img">
                             <img src="images/guitar.png" alt="image01" width="320">
                         </div>
@@ -94,7 +94,7 @@
                         <h2>Nosotros tenemos la Variedad</h2>
                         <h4>¿De verdad no encuentras lo que buscas?</h4>
                         <p>Contamos con toda variedad de instrumentos y accesorios para todo tipo de músico, desde una simple púa para guitarra, hasta los más selectos y raros platillos para completar tu batería, si buscas algo no dudes en buscarlo en nuestra tienda.</p>
-                        <a href="eshop/page/inicio" class="da-link button">Ir a la tienda</a>
+                        <a href="eshop/my-account" class="da-link button">Ir a la tienda</a>
                         <div class="da-img">
                             <img src="images/bateria.png" width="320" alt="image03">
                         </div>
